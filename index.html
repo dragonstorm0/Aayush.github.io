@@ -201,7 +201,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <input type="submit" name="submit" class="btn btn-success btn-send" value="Send message">
+                                    <input type="submit" name="submit" id="ResetForm" class="btn btn-success btn-send" value="Send message">
                                 </div>
                             </div>
                             
@@ -309,7 +309,10 @@ function topFunction() {
     </script>
 
     <script type="text/javascript">
-           
+     $(document).on('click', "#ResetForm", function() {
+     // Reset the form
+     document.getElementById('contact-form').reset();
+	});
 function titlebar(val)
 {
 var msg = "Aayush";
