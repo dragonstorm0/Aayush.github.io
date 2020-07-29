@@ -1,5 +1,5 @@
 # Important Note:
-    the animation onj scroll function that i added that can be founfd in particle/dist folder is not properly working on github publish
+    The animation on scroll function that i added that can be founfd in particle/dist folder is not properly working on github publish
     for some unknown reason the github publish is not accepting the js, will sort this as soon as possible.
 
 ## For full website with AOS working please visit
