@@ -5,7 +5,7 @@
     <link rel="icon" href="main.png" type="image/png">
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-
+	<script script type="text/javascript" src="demo2.js"></script>
 	<link rel="stylesheet" type="text/css" href="home.css">
     <!-- animation over scroll css -->
     <link rel="stylesheet" type="text/css" href="aos/dist/aos.css">
@@ -202,7 +202,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <input type="submit" name="submit" onclick="myFunction1()" class="btn btn-success btn-send" value="Send message">
+                                    <input type="submit" name="submit" onclick="this.form.reset();" class="btn btn-success btn-send" value="Send message">
                                 </div>
                             </div>
                             
@@ -245,9 +245,6 @@
     <!-- ./Footer -->
    
 <script>
-function myFunction1() {
-  alert("Recieved your mail, will respond soon!!");
-}
 </script>
 <script>
     function hover(element) {
