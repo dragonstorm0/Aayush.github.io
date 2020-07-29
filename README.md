@@ -1,6 +1,10 @@
 # Important Note:
     The animation on scroll function that i added that can be founfd in particle/dist folder is not properly working on github publish
     for some unknown reason the github publish is not accepting the js, will sort this as soon as possible.
+    
+#### for some unobvious reason the contact form input fields do not get resety out when submitted.
+     suggest some help if you have the knowledge
+     
 
 ## For full website with AOS working please visit
 
